@@ -17,5 +17,5 @@ url = { version = "2.2.2", features = ["serde"] }
 tokio = { version = "1.15.0", features = ["rt", "sync", "macros"] }
 ahash = "0.7.6"
 tracing = "0.1.29"
-reqwest = { version = "0.11.8", default-features=false, features = ["rustls-tls","gzip", "json"] }
+reqwest = { version = "0.11.9", default-features = false, features = ["rustls-tls","gzip", "json"] }
 metrics = "0.17.1"
