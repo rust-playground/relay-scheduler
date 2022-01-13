@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+    "scheduler",
+    "scheduler-server-http",
+    "scheduler-bin",
+    "scheduler-backing-noop",
+    "scheduler-backing-redis",
+    "scheduler-backing-sqlite",
+    "scheduler-backing-postgres",
+    "scheduler-backing-dynamodb",
+]

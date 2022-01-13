@@ -1,0 +1,12 @@
+[package]
+name = "scheduler-backing-noop"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+scheduler = { version = "*", path = "../scheduler" }
+async-trait = "0.1.52"
+tokio-stream = "0.1.8"
+chrono = { version = "0.4.19", features = ["serde"] }
